@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest_Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="validation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.Test_Login">
+        <methods>
+          <include name="test_invalidCaptchaCode" invocation-numbers="2"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.Test_Login -->
+    </classes>
+  </test> <!-- LoginTest_Chrome(failed) -->
+  <test thread-count="5" name="LoginTest_Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.Test_Login">
+        <methods>
+          <include name="test_invalidCaptchaCode" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.Test_Login -->
+    </classes>
+  </test> <!-- LoginTest_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
