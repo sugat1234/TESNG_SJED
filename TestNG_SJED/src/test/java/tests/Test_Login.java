@@ -3,6 +3,11 @@ package tests;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 import data.DataProviderOne;
 import pages.LoginPage;
 import utilities.BrowserFactory;
@@ -14,6 +19,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 
 public class Test_Login {
 	
@@ -23,6 +29,24 @@ public class Test_Login {
 	  LoginPage loginPage;
 	  SoftAssert softAssert;
 	
+	  ExtentReports report;
+	  ExtentTest test;
+
+	  @BeforeClass
+	  public void beforeClass()
+	  {
+			report=new ExtentReports();
+			
+			ExtentSparkReporter reporter=new ExtentSparkReporter("C:\\Users\\sugat\\git\\TESNG_SJED\\TestNG_SJED\\extent-report");
+			reporter.config().setReportName("Sample Report");
+			
+			report.attachReporter(reporter);
+			
+			test=report.createTest("Text Extent Report");
+
+	  }
+	  
+	  
 	  @Parameters("browser")
 	  @BeforeMethod(groups = {"validation","pagedetails"})
 	 public void beforeMethod(@Optional("chrome") String browser) {
@@ -36,7 +60,8 @@ public class Test_Login {
 		  Assert.assertNotNull(softAssert);
 
 		  Assert.assertNotNull(driver);
-		  
+
+		  test.log(Status.INFO, "Open the SJED Website");
 		  Reporter.log("Open the SJED Website");
 	  }
 
@@ -45,13 +70,16 @@ public class Test_Login {
 	  {
 		  
 		  softAssert.assertEquals(loginPage.getPageTitle(), "SJED");
+
+		  test.log(Status.INFO, "Check the title of the page");
 		  Reporter.log("Check the title of the page");
 		  
 		  softAssert.assertEquals(loginPage.getURL(), "https://esamajkalyan.gujarat.gov.in/index.aspx");
 		  Reporter.log("Check the url of the page");
+		  test.log(Status.INFO, "Check the URL of the page");
 		  
 		  softAssert.assertAll("Both values asserted");
-		  
+		  test.log(Status.INFO, null)
 	  }
 	  
 	  @Test(priority = 1, groups= {"validation"}, dataProvider = "blankUserId", dataProviderClass = data.DataProviderOne.class )
