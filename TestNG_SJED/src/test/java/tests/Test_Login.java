@@ -18,6 +18,7 @@ import org.testng.annotations.Parameters;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
@@ -42,15 +43,13 @@ public class Test_Login {
 			
 			report.attachReporter(reporter);
 			
-			test=report.createTest("Text Extent Report");
-
 	  }
 	  
 	  
 	  @Parameters("browser")
 	  @BeforeMethod(groups = {"validation","pagedetails"})
 	 public void beforeMethod(@Optional("chrome") String browser) {
-		  
+		 
 		  driver=BrowserFactory.initialize(browser, url);
 		  
 		  loginPage=new LoginPage(driver);
@@ -61,14 +60,13 @@ public class Test_Login {
 
 		  Assert.assertNotNull(driver);
 
-		  test.log(Status.INFO, "Open the SJED Website");
-		  Reporter.log("Open the SJED Website");
-	  }
+  }
 
 	  @Test(priority = 0, groups = {"pagedetails"})
 	  public void test_pageDetails()
 	  {
-		  
+		  test=report.createTest("Page details");
+  
 		  softAssert.assertEquals(loginPage.getPageTitle(), "SJED");
 
 		  test.log(Status.INFO, "Check the title of the page");
@@ -79,84 +77,114 @@ public class Test_Login {
 		  test.log(Status.INFO, "Check the URL of the page");
 		  
 		  softAssert.assertAll("Both values asserted");
-		  test.log(Status.INFO, null)
+		  test.log(Status.INFO, "Both values asserted");
+		 
 	  }
 	  
 	  @Test(priority = 1, groups= {"validation"}, dataProvider = "blankUserId", dataProviderClass = data.DataProviderOne.class )
 	  public void test_blankUserId(String userId, String password, String captcha) {
+		  test=report.createTest("Blank user ID");
 		  
 		  loginPage.enterUserId(userId);
-		  Reporter.log("Keep User ID blank\n");
-
+		  test.log(Status.INFO, "Enter User ID");
+		  
 		  loginPage.enterPassword(password);
-		  Reporter.log("Enter the Password\n");
+		  test.log(Status.INFO, "Enter Password");
 		  
 		  loginPage.enterCaptcha(captcha);
-		  Reporter.log("Enter the Captcha\n");
+		  test.log(Status.INFO, "Enter Captcha");
 		  
 		  loginPage.clickLogin();
-		  Reporter.log("Click login\n");
+		  test.log(Status.INFO, "Click Login");
 		  
 		  Assert.assertEquals(loginPage.getErrorMessageBlankUserId(), "Please Enter Registration Number");
-		  Reporter.log("Check results\n");
-				  
+		
+		  test.log(Status.PASS, "Test case passed");
 
 		  
 	  }
 	  
 	  @Test(priority = 2,groups= {"validation"}, dataProvider = "blankPassword", dataProviderClass = DataProviderOne.class)
 	  public void test_blankPassword(String userId, String password, String captcha) {
+		  test=report.createTest("Blank password");
 		  
 		  loginPage.enterUserId(userId);
+		  test.log(Status.INFO, "Enter User ID");
 		  
 		  loginPage.enterPassword(password);
-		  
+		  test.log(Status.INFO, "Enter Password");
+
 		  loginPage.enterCaptcha(captcha);
+		  test.log(Status.INFO, "Enter Captcha");
 		  
 		  loginPage.clickLogin();
+		  test.log(Status.INFO, "Click Login");
 		  
 		  Assert.assertEquals(loginPage.getErrorMessageBlankPassword(), "Please Enter Password");
+		  test.log(Status.PASS, "Test case passed");
+
 	  }
 	  
 	  @Test(priority = 3, groups= {"validation"}, dataProvider = "blankCaptcha", dataProviderClass = DataProviderOne.class)
 	  public void test_blankCaptcha(String userId, String password, String captcha) {
+		  test=report.createTest("Blank Captcha");
 		  
 		  loginPage.enterUserId(userId);
+		  test.log(Status.INFO, "Enter User ID");
 		  
 		  loginPage.enterPassword(password);
-		  
+		  test.log(Status.INFO, "Enter Password");
+
 		  loginPage.enterCaptcha(captcha);
+		  test.log(Status.INFO, "Enter Captcha");
 		  
 		  loginPage.clickLogin();
-		  
+		  test.log(Status.INFO, "Click Login");
+
 		  Assert.assertEquals(loginPage.getErrorMessageBlankCaptcha(), "Please Enter Captcha Code");
+		  test.log(Status.PASS, "Test case passed");
+
 	  }
 	  
 	  @Test(priority=4, groups= {"validation"}, dataProvider = "invalidCaptcha", dataProviderClass = DataProviderOne.class)
 	  public void test_invalidCaptcha(String userId, String password, String captcha)
 	  {
-		  loginPage.enterUserId(userId);
+		  test=report.createTest("Invalid Captcha");
 		  
-		  loginPage.enterPassword(password);
+		  loginPage.enterUserId(userId);
+		  test.log(Status.INFO, "Enter User ID");
+		  
+		  loginPage.enterPassword(password);		  
+		  test.log(Status.INFO, "Enter Password");
 		  
 		  loginPage.enterCaptcha(captcha);
-		  
+		  test.log(Status.INFO, "Enter Captcha");
+
 		  loginPage.clickLogin();
+		  test.log(Status.INFO, "Click Login");
 		  
 		  Assert.assertEquals(loginPage.getErrorMessageInvalidCaptcha(), "Allows Only Alpha-numeric 6 Characters.");
+		  test.log(Status.PASS, "Test case passed");
+
 	  }
 	  
 	  @Test(priority=5, groups = "validation", dataProvider = "invalidCaptchaCode", dataProviderClass = DataProviderOne.class)
 	  public void test_invalidCaptchaCode(String userId, String password, String captcha)
 	  {
+		  test=report.createTest("Invalid Captcha code");
+
 		  loginPage.enterUserId(userId);
-		  
+		  test.log(Status.INFO, "Enter User ID");
+
 		  loginPage.enterPassword(password);
+		  test.log(Status.INFO, "Enter Password");
 		  
 		  loginPage.enterCaptcha(captcha);
-		  
+		  test.log(Status.INFO, "Enter Captcha");
+
 		  loginPage.clickLogin();  
-		  
+		  test.log(Status.INFO, "Click Login");
+  
 		  try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -166,6 +194,9 @@ public class Test_Login {
 		  Assert.assertEquals(loginPage.getErrorMessageInvalidCaptchaCode(), "Invalid Captcha Code. Please Enter code again!");
 		  
 		  loginPage.clickOk();
+		  
+		  test.log(Status.PASS, "Test case passed");
+
 	  }
 	  
 	  @Test(enabled = false)
@@ -185,6 +216,13 @@ public class Test_Login {
 		  
 		  BrowserFactory.closeAll();
 		  
+	  }
+	  
+	  @AfterClass
+	  public void afterClass()
+	  {
+		  
+		  report.flush();
 	  }
 	  
 	  

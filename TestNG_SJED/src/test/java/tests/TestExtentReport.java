@@ -20,36 +20,36 @@ public class TestExtentReport {
 	public void beforeClass() {
 		report=new ExtentReports();
 		
-		ExtentSparkReporter reporter=new ExtentSparkReporter("C:\\Users\\sugat\\eclipse-workspace\\POMFrameworkOne\\extent-report");
+		ExtentSparkReporter reporter=new ExtentSparkReporter("C:\\Users\\sugat\\git\\TESNG_SJED\\TestNG_SJED\\extent-report\\index2.html");
 		reporter.config().setReportName("Sample Report");
 		
 		report.attachReporter(reporter);
 		
-		test=report.createTest("Text Extent Report");
+
 		
 	}
 
 	@BeforeMethod
 	public void beforeMethod() {
 		
-		test.log(Status.INFO, "Test Started");
 	}
 
 	@Test
 	public void test1() {
+		test=report.createTest("Test1");
 		
 		test.log(Status.PASS, "Test Pass");
 	}
 	
 	@Test
 	public void test2() {
-		
+
+		test=report.createTest("Test2");
 		test.log(Status.FAIL, "Test Fail");
 	}
 
 	@AfterMethod
 	public void afterMethod() {
-		
 		test.log(Status.INFO, "Test Completed");
 		
 	}
