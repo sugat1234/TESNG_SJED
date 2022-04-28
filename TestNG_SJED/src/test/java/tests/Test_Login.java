@@ -31,7 +31,7 @@ public class Test_Login {
 	  LoginPage loginPage;
 	  SoftAssert softAssert;
 	  ExtentReports report;
-	  ExtentTest test;
+	  
 	  
 	  @BeforeClass
 	  public void beforeClass()
@@ -42,8 +42,7 @@ public class Test_Login {
 		  reporter.config().setReportName("Sample Report");
 			
 		  report.attachReporter(reporter); 
-		  
-		  
+		  		  
 	  }
 	  
 	  @Parameters("browser")
@@ -65,7 +64,7 @@ public class Test_Login {
 	  @Test(priority = 0, groups = {"pagedetails"})
 	  public void test_pageDetails()
 	  {
-		  test=report.createTest("Page Details");
+		  ExtentTest test=report.createTest("Page Details");
 
 		  try {
 			  softAssert.assertEquals(loginPage.getPageTitle(), "SJED");
@@ -85,11 +84,9 @@ public class Test_Login {
 	  
 	  @Test(priority = 1, groups= {"validation"}, dataProvider = "blankUserId", dataProviderClass = data.DataProviderOne.class )
 	  public void test_blankUserId(String userId, String password, String captcha) {
-		
+		  ExtentTest test=report.createTest("Blank user id");
 		  try
-		  {
-			  test=report.createTest("Blank user id");
-				
+		  {		
 			  loginPage.enterUserId(userId);
 			  
 			  loginPage.enterPassword(password);
@@ -197,6 +194,12 @@ public class Test_Login {
 		  
 		  BrowserFactory.closeAll();
 		  
+	  }
+	  
+	  @AfterClass
+	  public void afterClass()
+	  {
+		  report.flush();
 	  }
 	  
 
