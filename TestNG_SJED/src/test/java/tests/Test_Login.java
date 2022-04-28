@@ -12,6 +12,7 @@ import data.DataProviderOne;
 import pages.LoginPage;
 import utilities.BrowserFactory;
 
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -29,26 +30,25 @@ public class Test_Login {
 	  WebDriver driver; 
 	  LoginPage loginPage;
 	  SoftAssert softAssert;
-	
 	  ExtentReports report;
 	  ExtentTest test;
-
+	  
 	  @BeforeClass
 	  public void beforeClass()
 	  {
-			report=new ExtentReports();
+		  report=new ExtentReports();
 			
-			ExtentSparkReporter reporter=new ExtentSparkReporter("C:\\Users\\sugat\\git\\TESNG_SJED\\TestNG_SJED\\extent-report");
-			reporter.config().setReportName("Sample Report");
+		  ExtentSparkReporter reporter=new ExtentSparkReporter("C:\\Users\\sugat\\git\\TESNG_SJED\\TestNG_SJED\\extent-report\\index2.html");
+		  reporter.config().setReportName("Sample Report");
 			
-			report.attachReporter(reporter);
-			
+		  report.attachReporter(reporter); 
+		  
+		  
 	  }
-	  
 	  
 	  @Parameters("browser")
 	  @BeforeMethod(groups = {"validation","pagedetails"})
-	 public void beforeMethod(@Optional("chrome") String browser) {
+	 public void beforeMethod(@Optional("firefox") String browser) {
 		 
 		  driver=BrowserFactory.initialize(browser, url);
 		  
@@ -65,125 +65,107 @@ public class Test_Login {
 	  @Test(priority = 0, groups = {"pagedetails"})
 	  public void test_pageDetails()
 	  {
-		  test=report.createTest("Page details");
-  
-		  softAssert.assertEquals(loginPage.getPageTitle(), "SJED");
+		  test=report.createTest("Page Details");
 
-		  test.log(Status.INFO, "Check the title of the page");
-		  Reporter.log("Check the title of the page");
+		  try {
+			  softAssert.assertEquals(loginPage.getPageTitle(), "SJED");
+			  
+			  softAssert.assertEquals(loginPage.getURL(), "https://esamajkalyan.gujarat.gov.in/index.aspx");
+			  
+			  softAssert.assertAll("Both values asserted");
+			  
+			  test.log(Status.PASS, "Test Passed");  
+		  }
+		  catch(Exception e)
+		  {
+			  test.log(Status.FAIL, "Test Failed");    
+		  }
 		  
-		  softAssert.assertEquals(loginPage.getURL(), "https://esamajkalyan.gujarat.gov.in/index.aspx");
-		  Reporter.log("Check the url of the page");
-		  test.log(Status.INFO, "Check the URL of the page");
-		  
-		  softAssert.assertAll("Both values asserted");
-		  test.log(Status.INFO, "Both values asserted");
-		 
 	  }
 	  
 	  @Test(priority = 1, groups= {"validation"}, dataProvider = "blankUserId", dataProviderClass = data.DataProviderOne.class )
 	  public void test_blankUserId(String userId, String password, String captcha) {
-		  test=report.createTest("Blank user ID");
-		  
-		  loginPage.enterUserId(userId);
-		  test.log(Status.INFO, "Enter User ID");
-		  
-		  loginPage.enterPassword(password);
-		  test.log(Status.INFO, "Enter Password");
-		  
-		  loginPage.enterCaptcha(captcha);
-		  test.log(Status.INFO, "Enter Captcha");
-		  
-		  loginPage.clickLogin();
-		  test.log(Status.INFO, "Click Login");
-		  
-		  Assert.assertEquals(loginPage.getErrorMessageBlankUserId(), "Please Enter Registration Number");
 		
-		  test.log(Status.PASS, "Test case passed");
-
-		  
+		  try
+		  {
+			  test=report.createTest("Blank user id");
+				
+			  loginPage.enterUserId(userId);
+			  
+			  loginPage.enterPassword(password);
+			  
+			  loginPage.enterCaptcha(captcha);
+			  
+			  loginPage.clickLogin();
+			  
+			  Assert.assertEquals(loginPage.getErrorMessageBlankUserId(), "Please Enter Registration Number");
+			
+			  test.log(Status.PASS, "Test Passed");   
+		  }
+		  catch(Exception e)
+		  {
+			  test.log(Status.FAIL, "Test Failed");    
+		  }
+		   
 	  }
 	  
 	  @Test(priority = 2,groups= {"validation"}, dataProvider = "blankPassword", dataProviderClass = DataProviderOne.class)
 	  public void test_blankPassword(String userId, String password, String captcha) {
-		  test=report.createTest("Blank password");
 		  
 		  loginPage.enterUserId(userId);
-		  test.log(Status.INFO, "Enter User ID");
 		  
 		  loginPage.enterPassword(password);
-		  test.log(Status.INFO, "Enter Password");
 
 		  loginPage.enterCaptcha(captcha);
-		  test.log(Status.INFO, "Enter Captcha");
 		  
 		  loginPage.clickLogin();
-		  test.log(Status.INFO, "Click Login");
 		  
 		  Assert.assertEquals(loginPage.getErrorMessageBlankPassword(), "Please Enter Password");
-		  test.log(Status.PASS, "Test case passed");
 
 	  }
 	  
 	  @Test(priority = 3, groups= {"validation"}, dataProvider = "blankCaptcha", dataProviderClass = DataProviderOne.class)
 	  public void test_blankCaptcha(String userId, String password, String captcha) {
-		  test=report.createTest("Blank Captcha");
 		  
 		  loginPage.enterUserId(userId);
-		  test.log(Status.INFO, "Enter User ID");
 		  
 		  loginPage.enterPassword(password);
-		  test.log(Status.INFO, "Enter Password");
 
 		  loginPage.enterCaptcha(captcha);
-		  test.log(Status.INFO, "Enter Captcha");
 		  
 		  loginPage.clickLogin();
-		  test.log(Status.INFO, "Click Login");
 
 		  Assert.assertEquals(loginPage.getErrorMessageBlankCaptcha(), "Please Enter Captcha Code");
-		  test.log(Status.PASS, "Test case passed");
 
 	  }
 	  
 	  @Test(priority=4, groups= {"validation"}, dataProvider = "invalidCaptcha", dataProviderClass = DataProviderOne.class)
 	  public void test_invalidCaptcha(String userId, String password, String captcha)
 	  {
-		  test=report.createTest("Invalid Captcha");
 		  
 		  loginPage.enterUserId(userId);
-		  test.log(Status.INFO, "Enter User ID");
 		  
 		  loginPage.enterPassword(password);		  
-		  test.log(Status.INFO, "Enter Password");
 		  
 		  loginPage.enterCaptcha(captcha);
-		  test.log(Status.INFO, "Enter Captcha");
 
 		  loginPage.clickLogin();
-		  test.log(Status.INFO, "Click Login");
 		  
 		  Assert.assertEquals(loginPage.getErrorMessageInvalidCaptcha(), "Allows Only Alpha-numeric 6 Characters.");
-		  test.log(Status.PASS, "Test case passed");
 
 	  }
 	  
 	  @Test(priority=5, groups = "validation", dataProvider = "invalidCaptchaCode", dataProviderClass = DataProviderOne.class)
 	  public void test_invalidCaptchaCode(String userId, String password, String captcha)
 	  {
-		  test=report.createTest("Invalid Captcha code");
 
 		  loginPage.enterUserId(userId);
-		  test.log(Status.INFO, "Enter User ID");
 
 		  loginPage.enterPassword(password);
-		  test.log(Status.INFO, "Enter Password");
 		  
 		  loginPage.enterCaptcha(captcha);
-		  test.log(Status.INFO, "Enter Captcha");
 
 		  loginPage.clickLogin();  
-		  test.log(Status.INFO, "Click Login");
   
 		  try {
 			Thread.sleep(3000);
@@ -195,7 +177,6 @@ public class Test_Login {
 		  
 		  loginPage.clickOk();
 		  
-		  test.log(Status.PASS, "Test case passed");
 
 	  }
 	  
@@ -217,14 +198,6 @@ public class Test_Login {
 		  BrowserFactory.closeAll();
 		  
 	  }
-	  
-	  @AfterClass
-	  public void afterClass()
-	  {
-		  
-		  report.flush();
-	  }
-	  
 	  
 
 

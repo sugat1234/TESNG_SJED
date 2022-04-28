@@ -11,6 +11,7 @@ public class TestListener implements ITestListener {
 	}
 
 	public void onTestSuccess(ITestResult result) {
+
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -26,6 +27,8 @@ public class TestListener implements ITestListener {
 	}
 
 	public void onFinish(ITestContext context) {
+		
+	
 	}
 
 }
