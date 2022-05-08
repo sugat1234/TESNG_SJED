@@ -8,6 +8,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -15,6 +16,12 @@ import org.testng.annotations.BeforeClass;
 public class TestExtentReport {
 	ExtentReports report;
 	ExtentTest test;
+
+	@DataProvider(name = "data_provider1")
+	public Object[][] dp1()
+	{
+		return new Object[][] {{"Set1"},{"Set2"}};
+	}
 	
 	@BeforeClass
 	public void beforeClass() {
@@ -25,8 +32,6 @@ public class TestExtentReport {
 		
 		report.attachReporter(reporter);
 		
-
-		
 	}
 
 	@BeforeMethod
@@ -34,11 +39,11 @@ public class TestExtentReport {
 		
 	}
 
-	@Test
-	public void test1() {
+	@Test(dataProvider ="data_provider1")
+	public void test1(String d1) {
 		test=report.createTest("Test1");
 		
-		test.log(Status.PASS, "Test Pass");
+		test.log(Status.PASS, "Test Pass"+d1);
 	}
 	
 	@Test

@@ -19,7 +19,7 @@ public class BrowserFactory {
 			
 			options.addArguments("headless");
 			
-			driver=new ChromeDriver(options);
+			driver=new ChromeDriver();
 			
 		
 		}

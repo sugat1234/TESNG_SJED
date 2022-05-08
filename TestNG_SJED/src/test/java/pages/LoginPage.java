@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import utilities.Log;
+
 
 public class LoginPage {
 	
@@ -58,56 +60,69 @@ public class LoginPage {
 	public void enterUserId(String userId)
 	{
 		driver.findElement(this.userId).sendKeys(userId);
+		Log.info("Enter User Id");
 	}
 	
 	public void enterPassword(String password)
 	{
 		driver.findElement(this.password).sendKeys(password);
+		Log.info("Enter Password");
 	}
 
 	public void enterCaptcha(String captcha)
 	{
 		driver.findElement(this.captchaCode).sendKeys(captcha);
+		Log.info("Enter Captcha");
 	}
 	
 	public void clickLogin()
 	{
 		driver.findElement(this.login).click();
+		
+		Log.info("Click Login button");
 	}
 	
 	public void clickNewUserRegistration()
 	{
 		driver.findElement(this.newUserRegistration).click();
+		
+		Log.info("Click new user registration");
 	}
 	
 	public String getErrorMessageBlankUserId()
 	{
+		Log.info("Error message for Blank User ID is displayed");
 		return driver.findElement(this.errMsg_blankUserId).getText();
 	}
 
 	public String getErrorMessageBlankPassword()
 	{
+		Log.info("Error message for Blank Password is displayed");
 		return driver.findElement(errMsg_blankPassword).getText();
 	}
 	
 	public String getErrorMessageBlankCaptcha()
 	{
+		Log.info("Error message for Blank Captcha is displayed");
 		return driver.findElement(errMsg_blankCaptcha).getText();
 		
 	}
 	
 	public String getErrorMessageInvalidCaptcha()
 	{
+		Log.info("Error message for Invalid Captcha is displayed");
 		return driver.findElement(errMsg_invalidCaptcha).getText();
 	}
 	
 	public String getErrorMessageInvalidCaptchaCode()
 	{
+		Log.info("Error message for Invalid Captcha Code is displayed");
 		return driver.findElement(errMsg_invalidCaptchaCode).getText();
 	}
 	
 	public void clickOk()
 	{
+		Log.info("Click OK in Captcha alert");
 		driver.findElement(errMsg_Ok).click();
 	}
 

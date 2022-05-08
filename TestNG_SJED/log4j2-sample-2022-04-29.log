@@ -1,0 +1,75 @@
+[INFO ] 2022-04-29 23:39:17.196 [main] Log4JLogger - Start
+[WARN ] 2022-04-29 23:39:17.202 [main] Log4JLogger - Warning
+[ERROR] 2022-04-29 23:39:17.202 [main] Log4JLogger - Error
+[INFO ] 2022-04-29 23:39:29.296 [main] Log4JLogger - Information
+[WARN ] 2022-04-29 23:39:29.300 [main] Log4JLogger - Warning
+[ERROR] 2022-04-29 23:39:29.300 [main] Log4JLogger - Error
+[INFO ] 2022-04-29 23:40:04.047 [main] Log4JLogger - Information
+[WARN ] 2022-04-29 23:40:04.052 [main] Log4JLogger - Warning
+[ERROR] 2022-04-29 23:40:04.053 [main] Log4JLogger - Error
+[INFO ] 2022-04-29 23:49:55.677 [main] Log - Tests are starting
+[INFO ] 2022-04-29 23:50:03.050 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:03.805 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:09.394 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:09.847 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:13.073 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:13.536 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:17.309 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:17.828 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:21.224 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:21.959 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:25.243 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:25.716 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:29.341 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:29.794 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:33.075 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:33.660 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:37.598 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:38.050 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:41.213 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:41.662 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:45.415 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:46.071 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:49.172 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:49.698 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:50:53.428 [main] Log - Test Started
+[INFO ] 2022-04-29 23:50:57.360 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:01.690 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:05.572 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:09.431 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:13.447 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:14.387 [main] Log - Tests are ending
+[INFO ] 2022-04-29 23:51:14.388 [main] Log - Tests are starting
+[INFO ] 2022-04-29 23:51:21.456 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:21.469 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:28.652 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:29.110 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:36.374 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:36.888 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:43.668 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:44.239 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:51.251 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:51.831 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:51:58.715 [main] Log - Test Started
+[INFO ] 2022-04-29 23:51:59.264 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:52:05.891 [main] Log - Test Started
+[INFO ] 2022-04-29 23:52:06.342 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:52:13.441 [main] Log - Test Started
+[INFO ] 2022-04-29 23:52:14.043 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:52:21.419 [main] Log - Test Started
+[INFO ] 2022-04-29 23:52:21.903 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:52:29.730 [main] Log - Test Started
+[INFO ] 2022-04-29 23:52:30.091 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:52:36.763 [main] Log - Test Started
+[INFO ] 2022-04-29 23:52:37.802 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:52:45.576 [main] Log - Test Started
+[INFO ] 2022-04-29 23:52:46.502 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:52:52.687 [main] Log - Test Started
+[INFO ] 2022-04-29 23:52:53.611 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:53:01.039 [main] Log - Test Started
+[INFO ] 2022-04-29 23:53:05.049 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:53:12.214 [main] Log - Test Started
+[INFO ] 2022-04-29 23:53:16.125 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:53:22.967 [main] Log - Test Started
+[INFO ] 2022-04-29 23:53:26.899 [main] Log - Test Passed
+[INFO ] 2022-04-29 23:53:27.992 [main] Log - Tests are ending

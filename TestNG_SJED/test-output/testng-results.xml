@@ -1,602 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="17" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Check the title of the page]]>
-    </line>
-    <line>
-      <![CDATA[Check the url of the page]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-04-28T21:52:39 IST" name="Default suite" finished-at="2022-04-28T21:54:36 IST" duration-ms="117018">
+  <suite started-at="2022-04-30T00:01:11 IST" name="Default suite" finished-at="2022-04-30T00:01:12 IST" duration-ms="969">
     <groups>
-      <group name="pagedetails">
-        <method signature="Test_Login.test_pageDetails()[pri:0, instance:tests.Test_Login@c8c12ac]" name="test_pageDetails" class="tests.Test_Login"/>
-      </group> <!-- pagedetails -->
-      <group name="validation">
-        <method signature="Test_Login.test_blankUserId(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.Test_Login@c8c12ac]" name="test_blankUserId" class="tests.Test_Login"/>
-        <method signature="Test_Login.test_blankPassword(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.Test_Login@c8c12ac]" name="test_blankPassword" class="tests.Test_Login"/>
-        <method signature="Test_Login.test_blankCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.Test_Login@c8c12ac]" name="test_blankCaptcha" class="tests.Test_Login"/>
-        <method signature="Test_Login.test_invalidCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.Test_Login@c8c12ac]" name="test_invalidCaptcha" class="tests.Test_Login"/>
-        <method signature="Test_Login.test_invalidCaptchaCode(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:tests.Test_Login@c8c12ac]" name="test_invalidCaptchaCode" class="tests.Test_Login"/>
-      </group> <!-- validation -->
     </groups>
-    <test started-at="2022-04-28T21:52:39 IST" name="Default test" finished-at="2022-04-28T21:54:36 IST" duration-ms="117018">
-      <class name="tests.Test_Login">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:39 IST" name="beforeClass" finished-at="2022-04-28T21:52:40 IST" duration-ms="389" status="PASS">
+    <test started-at="2022-04-30T00:01:11 IST" name="Default test" finished-at="2022-04-30T00:01:12 IST" duration-ms="969">
+      <class name="tests.TestExtentReport">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:11 IST" name="beforeClass" finished-at="2022-04-30T00:01:12 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:40 IST" name="beforeMethod" finished-at="2022-04-28T21:52:47 IST" duration-ms="7616" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="beforeMethod" finished-at="2022-04-30T00:01:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test_pageDetails()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:47 IST" name="test_pageDetails" finished-at="2022-04-28T21:52:47 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Check the title of the page]]>
-            </line>
-            <line>
-              <![CDATA[Check the url of the page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test_pageDetails -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:47 IST" name="afterMethod" finished-at="2022-04-28T21:52:49 IST" duration-ms="1287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:49 IST" name="beforeMethod" finished-at="2022-04-28T21:52:53 IST" duration-ms="4809" status="PASS">
+        <test-method signature="test1(java.lang.String)[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="test1" data-provider="data_provider1" finished-at="2022-04-30T00:01:12 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Set1]]>
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="afterMethod" finished-at="2022-04-30T00:01:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="beforeMethod" finished-at="2022-04-30T00:01:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankUserId(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:53 IST" name="test_blankUserId" data-provider="blankUserId" finished-at="2022-04-28T21:52:54 IST" duration-ms="644" status="PASS">
+        <test-method signature="test1(java.lang.String)[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="test1" data-provider="data_provider1" finished-at="2022-04-30T00:01:12 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[XADK01]]>
+                <![CDATA[Set2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_blankUserId -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:54 IST" name="afterMethod" finished-at="2022-04-28T21:52:55 IST" duration-ms="1139" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="afterMethod" finished-at="2022-04-30T00:01:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:52:55 IST" name="beforeMethod" finished-at="2022-04-28T21:53:00 IST" duration-ms="4924" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="beforeMethod" finished-at="2022-04-30T00:01:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankUserId(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:00 IST" name="test_blankUserId" data-provider="blankUserId" finished-at="2022-04-28T21:53:01 IST" duration-ms="489" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[XADK01]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="test2()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="test2" finished-at="2022-04-30T00:01:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_blankUserId -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:01 IST" name="afterMethod" finished-at="2022-04-28T21:53:02 IST" duration-ms="1017" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="afterMethod" finished-at="2022-04-30T00:01:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:02 IST" name="beforeMethod" finished-at="2022-04-28T21:53:06 IST" duration-ms="4604" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankUserId(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:06 IST" name="test_blankUserId" data-provider="blankUserId" finished-at="2022-04-28T21:53:07 IST" duration-ms="501" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_blankUserId -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:07 IST" name="afterMethod" finished-at="2022-04-28T21:53:08 IST" duration-ms="1158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:08 IST" name="beforeMethod" finished-at="2022-04-28T21:53:13 IST" duration-ms="4670" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankPassword(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:13 IST" name="test_blankPassword" data-provider="blankPassword" finished-at="2022-04-28T21:53:13 IST" duration-ms="532" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[XADK01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_blankPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:13 IST" name="afterMethod" finished-at="2022-04-28T21:53:14 IST" duration-ms="1124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:14 IST" name="beforeMethod" finished-at="2022-04-28T21:53:19 IST" duration-ms="4649" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankPassword(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:19 IST" name="test_blankPassword" data-provider="blankPassword" finished-at="2022-04-28T21:53:19 IST" duration-ms="509" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[XADK01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_blankPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:19 IST" name="afterMethod" finished-at="2022-04-28T21:53:20 IST" duration-ms="1118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:20 IST" name="beforeMethod" finished-at="2022-04-28T21:53:25 IST" duration-ms="4609" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankPassword(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:25 IST" name="test_blankPassword" data-provider="blankPassword" finished-at="2022-04-28T21:53:26 IST" duration-ms="466" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_blankPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:26 IST" name="afterMethod" finished-at="2022-04-28T21:53:27 IST" duration-ms="1318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:27 IST" name="beforeMethod" finished-at="2022-04-28T21:53:32 IST" duration-ms="4996" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:32 IST" name="test_blankCaptcha" data-provider="blankCaptcha" finished-at="2022-04-28T21:53:32 IST" duration-ms="560" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_blankCaptcha -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:32 IST" name="afterMethod" finished-at="2022-04-28T21:53:34 IST" duration-ms="1140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:34 IST" name="beforeMethod" finished-at="2022-04-28T21:53:38 IST" duration-ms="4728" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:38 IST" name="test_blankCaptcha" data-provider="blankCaptcha" finished-at="2022-04-28T21:53:39 IST" duration-ms="600" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_blankCaptcha -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:39 IST" name="afterMethod" finished-at="2022-04-28T21:53:40 IST" duration-ms="1264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:40 IST" name="beforeMethod" finished-at="2022-04-28T21:53:45 IST" duration-ms="4694" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_blankCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:45 IST" name="test_blankCaptcha" data-provider="blankCaptcha" finished-at="2022-04-28T21:53:45 IST" duration-ms="496" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_blankCaptcha -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:45 IST" name="afterMethod" finished-at="2022-04-28T21:53:47 IST" duration-ms="1186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:47 IST" name="beforeMethod" finished-at="2022-04-28T21:53:51 IST" duration-ms="4701" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_invalidCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:51 IST" name="test_invalidCaptcha" data-provider="invalidCaptcha" finished-at="2022-04-28T21:53:52 IST" duration-ms="999" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[XD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_invalidCaptcha -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:52 IST" name="afterMethod" finished-at="2022-04-28T21:53:53 IST" duration-ms="1009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:53 IST" name="beforeMethod" finished-at="2022-04-28T21:53:58 IST" duration-ms="4619" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_invalidCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:58 IST" name="test_invalidCaptcha" data-provider="invalidCaptcha" finished-at="2022-04-28T21:53:59 IST" duration-ms="981" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[XD11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_invalidCaptcha -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:53:59 IST" name="afterMethod" finished-at="2022-04-28T21:54:00 IST" duration-ms="1009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:00 IST" name="beforeMethod" finished-at="2022-04-28T21:54:05 IST" duration-ms="4662" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_invalidCaptcha(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:05 IST" name="test_invalidCaptcha" data-provider="invalidCaptcha" finished-at="2022-04-28T21:54:06 IST" duration-ms="964" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DD11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_invalidCaptcha -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:06 IST" name="afterMethod" finished-at="2022-04-28T21:54:07 IST" duration-ms="1126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:07 IST" name="beforeMethod" finished-at="2022-04-28T21:54:12 IST" duration-ms="4878" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_invalidCaptchaCode(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:12 IST" name="test_invalidCaptchaCode" data-provider="invalidCaptchaCode" finished-at="2022-04-28T21:54:15 IST" duration-ms="3922" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[XDKD01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_invalidCaptchaCode -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:15 IST" name="afterMethod" finished-at="2022-04-28T21:54:16 IST" duration-ms="1026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:16 IST" name="beforeMethod" finished-at="2022-04-28T21:54:21 IST" duration-ms="4557" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_invalidCaptchaCode(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:21 IST" name="test_invalidCaptchaCode" data-provider="invalidCaptchaCode" finished-at="2022-04-28T21:54:25 IST" duration-ms="4157" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[AD11D1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_invalidCaptchaCode -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:25 IST" name="afterMethod" finished-at="2022-04-28T21:54:26 IST" duration-ms="986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:26 IST" name="beforeMethod" finished-at="2022-04-28T21:54:31 IST" duration-ms="4817" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test_invalidCaptchaCode(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:31 IST" name="test_invalidCaptchaCode" data-provider="invalidCaptchaCode" finished-at="2022-04-28T21:54:35 IST" duration-ms="3909" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sugat123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[22KD33]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_invalidCaptchaCode -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:35 IST" name="afterMethod" finished-at="2022-04-28T21:54:36 IST" duration-ms="858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.Test_Login@c8c12ac]" started-at="2022-04-28T21:54:36 IST" name="afterClass" finished-at="2022-04-28T21:54:36 IST" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestExtentReport@6069db50]" started-at="2022-04-30T00:01:12 IST" name="afterClass" finished-at="2022-04-30T00:01:12 IST" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- tests.Test_Login -->
+      </class> <!-- tests.TestExtentReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

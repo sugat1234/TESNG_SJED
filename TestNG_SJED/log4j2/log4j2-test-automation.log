@@ -1,0 +1,288 @@
+[INFO ] 2022-04-30 00:23:25.084 [main] Log - Tests are starting
+[INFO ] 2022-04-30 00:23:30.177 [main] Log - Test Started
+[INFO ] 2022-04-30 00:23:30.916 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:23:34.911 [main] Log - Test Started
+[INFO ] 2022-04-30 00:23:35.351 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:23:38.779 [main] Log - Test Started
+[INFO ] 2022-04-30 00:23:39.222 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:23:42.653 [main] Log - Test Started
+[INFO ] 2022-04-30 00:23:43.150 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:23:46.736 [main] Log - Test Started
+[INFO ] 2022-04-30 00:23:47.216 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:23:51.532 [main] Log - Test Started
+[INFO ] 2022-04-30 00:23:52.009 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:23:55.436 [main] Log - Test Started
+[INFO ] 2022-04-30 00:23:56.000 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:00.132 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:00.713 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:03.714 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:04.123 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:07.358 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:07.824 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:11.476 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:12.121 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:15.754 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:16.119 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:19.304 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:23.471 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:28.005 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:31.956 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:35.504 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:39.594 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:40.435 [main] Log - Tests are ending
+[INFO ] 2022-04-30 00:24:40.923 [main] Log - Tests are starting
+[INFO ] 2022-04-30 00:24:46.944 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:46.962 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:24:53.809 [main] Log - Test Started
+[INFO ] 2022-04-30 00:24:54.325 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:01.858 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:02.448 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:08.388 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:08.949 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:15.403 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:15.916 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:22.270 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:22.784 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:29.619 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:30.143 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:36.877 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:37.379 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:43.996 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:44.525 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:51.154 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:51.654 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:25:58.237 [main] Log - Test Started
+[INFO ] 2022-04-30 00:25:59.224 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:26:05.724 [main] Log - Test Started
+[INFO ] 2022-04-30 00:26:06.766 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:26:13.260 [main] Log - Test Started
+[INFO ] 2022-04-30 00:26:14.231 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:26:20.822 [main] Log - Test Started
+[INFO ] 2022-04-30 00:26:24.992 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:26:31.054 [main] Log - Test Started
+[INFO ] 2022-04-30 00:26:34.946 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:26:41.229 [main] Log - Test Started
+[INFO ] 2022-04-30 00:26:45.368 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:26:46.587 [main] Log - Tests are ending
+[INFO ] 2022-04-30 00:34:24.353 [main] Log - Tests are starting
+[INFO ] 2022-04-30 00:34:28.798 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:28.930 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:29.054 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:29.194 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:29.285 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:29.285 [main] Log - Error message for Blank User ID is displayed
+[INFO ] 2022-04-30 00:34:29.325 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:32.823 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:32.957 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:33.041 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:33.153 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:33.256 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:33.256 [main] Log - Error message for Blank User ID is displayed
+[INFO ] 2022-04-30 00:34:33.295 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:36.702 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:36.783 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:36.875 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:36.946 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:37.037 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:37.037 [main] Log - Error message for Blank User ID is displayed
+[INFO ] 2022-04-30 00:34:37.079 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:40.163 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:40.308 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:40.376 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:40.460 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:40.556 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:40.556 [main] Log - Error message for Blank Password is displayed
+[INFO ] 2022-04-30 00:34:40.607 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:43.750 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:43.861 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:43.945 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:44.041 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:44.130 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:44.130 [main] Log - Error message for Blank Password is displayed
+[INFO ] 2022-04-30 00:34:44.166 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:47.804 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:47.920 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:48.028 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:48.107 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:48.179 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:48.180 [main] Log - Error message for Blank Password is displayed
+[INFO ] 2022-04-30 00:34:48.217 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:51.799 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:51.931 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:52.030 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:52.097 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:52.170 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:52.170 [main] Log - Error message for Blank Captcha is displayed
+[INFO ] 2022-04-30 00:34:52.202 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:55.613 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:55.733 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:55.802 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:55.865 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:55.931 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:55.931 [main] Log - Error message for Blank Captcha is displayed
+[INFO ] 2022-04-30 00:34:55.967 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:34:59.421 [main] Log - Test Started
+[INFO ] 2022-04-30 00:34:59.538 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:34:59.636 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:34:59.718 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:34:59.824 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:34:59.824 [main] Log - Error message for Blank Captcha is displayed
+[INFO ] 2022-04-30 00:34:59.867 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:03.232 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:03.355 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:03.455 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:03.525 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:03.603 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:03.603 [main] Log - Error message for Invalid Captcha is displayed
+[INFO ] 2022-04-30 00:35:03.638 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:07.041 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:07.186 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:07.276 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:07.358 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:07.436 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:07.437 [main] Log - Error message for Invalid Captcha is displayed
+[INFO ] 2022-04-30 00:35:07.482 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:10.893 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:10.980 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:11.059 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:11.143 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:11.211 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:11.211 [main] Log - Error message for Invalid Captcha is displayed
+[INFO ] 2022-04-30 00:35:11.254 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:14.206 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:14.345 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:14.444 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:14.545 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:15.035 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:18.045 [main] Log - Error message for Invalid Captcha Code is displayed
+[INFO ] 2022-04-30 00:35:18.074 [main] Log - Click OK in Captcha alert
+[INFO ] 2022-04-30 00:35:18.131 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:21.704 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:21.822 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:21.910 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:21.987 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:22.406 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:25.421 [main] Log - Error message for Invalid Captcha Code is displayed
+[INFO ] 2022-04-30 00:35:25.456 [main] Log - Click OK in Captcha alert
+[INFO ] 2022-04-30 00:35:25.513 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:28.849 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:29.041 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:29.125 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:29.206 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:29.767 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:32.769 [main] Log - Error message for Invalid Captcha Code is displayed
+[INFO ] 2022-04-30 00:35:32.803 [main] Log - Click OK in Captcha alert
+[INFO ] 2022-04-30 00:35:32.858 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:33.600 [main] Log - Tests are ending
+[INFO ] 2022-04-30 00:35:33.603 [main] Log - Tests are starting
+[INFO ] 2022-04-30 00:35:38.993 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:39.012 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:45.462 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:45.549 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:45.594 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:45.624 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:45.907 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:45.908 [main] Log - Error message for Blank User ID is displayed
+[INFO ] 2022-04-30 00:35:45.970 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:52.123 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:52.239 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:52.263 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:52.322 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:52.574 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:52.574 [main] Log - Error message for Blank User ID is displayed
+[INFO ] 2022-04-30 00:35:52.612 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:35:58.561 [main] Log - Test Started
+[INFO ] 2022-04-30 00:35:58.613 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:35:58.688 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:35:58.720 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:35:59.042 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:35:59.042 [main] Log - Error message for Blank User ID is displayed
+[INFO ] 2022-04-30 00:35:59.068 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:05.591 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:05.729 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:05.755 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:05.801 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:06.058 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:06.058 [main] Log - Error message for Blank Password is displayed
+[INFO ] 2022-04-30 00:36:06.108 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:12.321 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:12.447 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:12.472 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:12.576 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:12.817 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:12.817 [main] Log - Error message for Blank Password is displayed
+[INFO ] 2022-04-30 00:36:12.852 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:18.676 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:18.763 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:18.795 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:18.823 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:19.180 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:19.180 [main] Log - Error message for Blank Password is displayed
+[INFO ] 2022-04-30 00:36:19.221 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:25.473 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:25.608 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:25.657 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:25.707 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:25.983 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:25.983 [main] Log - Error message for Blank Captcha is displayed
+[INFO ] 2022-04-30 00:36:26.009 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:31.792 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:31.944 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:32.017 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:32.051 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:32.374 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:32.374 [main] Log - Error message for Blank Captcha is displayed
+[INFO ] 2022-04-30 00:36:32.429 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:38.590 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:38.674 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:38.700 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:38.774 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:39.076 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:39.077 [main] Log - Error message for Blank Captcha is displayed
+[INFO ] 2022-04-30 00:36:39.110 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:45.272 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:45.356 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:45.388 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:45.426 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:46.170 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:46.170 [main] Log - Error message for Invalid Captcha is displayed
+[INFO ] 2022-04-30 00:36:46.193 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:52.219 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:52.315 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:52.364 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:52.386 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:36:53.118 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:36:53.118 [main] Log - Error message for Invalid Captcha is displayed
+[INFO ] 2022-04-30 00:36:53.139 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:36:59.228 [main] Log - Test Started
+[INFO ] 2022-04-30 00:36:59.331 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:36:59.357 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:36:59.413 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:37:00.158 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:37:00.158 [main] Log - Error message for Invalid Captcha is displayed
+[INFO ] 2022-04-30 00:37:00.182 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:37:06.456 [main] Log - Test Started
+[INFO ] 2022-04-30 00:37:06.583 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:37:06.620 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:37:06.660 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:37:07.134 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:37:10.143 [main] Log - Error message for Invalid Captcha Code is displayed
+[INFO ] 2022-04-30 00:37:10.157 [main] Log - Click OK in Captcha alert
+[INFO ] 2022-04-30 00:37:10.382 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:37:17.811 [main] Log - Test Started
+[INFO ] 2022-04-30 00:37:17.890 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:37:17.930 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:37:17.957 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:37:18.500 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:37:21.503 [main] Log - Error message for Invalid Captcha Code is displayed
+[INFO ] 2022-04-30 00:37:21.519 [main] Log - Click OK in Captcha alert
+[INFO ] 2022-04-30 00:37:21.743 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:37:27.519 [main] Log - Test Started
+[INFO ] 2022-04-30 00:37:27.650 [main] Log - Enter User Id
+[INFO ] 2022-04-30 00:37:27.705 [main] Log - Enter Password
+[INFO ] 2022-04-30 00:37:27.739 [main] Log - Enter Captcha
+[INFO ] 2022-04-30 00:37:28.280 [main] Log - Enter Login
+[INFO ] 2022-04-30 00:37:31.291 [main] Log - Error message for Invalid Captcha Code is displayed
+[INFO ] 2022-04-30 00:37:31.307 [main] Log - Click OK in Captcha alert
+[INFO ] 2022-04-30 00:37:31.526 [main] Log - Test Passed
+[INFO ] 2022-04-30 00:37:32.439 [main] Log - Tests are ending
